@@ -31,11 +31,11 @@ export const typography: TypographyOptions = {
     paddingRight: '1rem',
   },
   h6: {
-    fontSize: '12px',
+    fontSize: '15px',
     textAlign: 'center',
 
-    fontWeight: 'bold',
-    color: COLORS.PRIMARY.DARK,
+    fontWeight: 'normal',
+    color: COLORS.WARNING.DARK,
     fontFamily: FONT,
   },
 

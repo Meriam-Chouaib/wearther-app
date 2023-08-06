@@ -1,8 +1,14 @@
 import React from 'react'
 import { StackStyled } from './StackLayout.style'
 
-export const StackLayout = () => {
+interface StackLayoutProps{
+    children:React.ReactNode;
+}
+export const StackLayout = ({children}:StackLayoutProps) => {
   return (
-    <StackStyled>StackLayout</StackStyled>
+    <StackStyled >
+{children}
+
+    </StackStyled>
   )
 } 
